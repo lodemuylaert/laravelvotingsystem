@@ -1,0 +1,47 @@
+.checkbox-round {
+  width: 2em;
+  height: 2em;
+  background-color: white;
+  border-radius: 50%;
+  vertical-align: middle;
+  -webkit-appearance: none;
+  outline: none;
+  cursor: pointer;
+  z-index: 400;
+  position: relative;
+
+}
+
+.partielist input{
+  margin: 15px;
+
+}
+.checkbox-round:checked {
+  background-color: red;
+}
+
+.checkstyle{
+
+  margin-top:4px;
+  border-radius: 10%;
+  width: 3em;
+  height: 3em;
+  background-color: #484848;
+  z-index: 10;
+  position: absolute;
+  left: 0.75em;
+  top: 0.35em;
+}
+input[type="file"]:focus, input[type="radio"]:focus, input[type="checkbox"]:focus {
+  outline: 0px auto -webkit-focus-ring-color;
+  outline-offset: -2px;
+}
+#candidatelist li{
+  position: relative;
+}
+.headerwrap{
+  position: relative;
+}
+input[type="radio"][disabled], input[type="radio"].disabled, fieldset[disabled] input[type="radio"], input[type="checkbox"][disabled], input[type="checkbox"].disabled, fieldset[disabled] input[type="checkbox"] {
+  cursor: default;
+}

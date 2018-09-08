@@ -1,0 +1,31 @@
+.login #name, .login #password{
+  border-bottom-left-radius: 4px;
+  border-top-left-radius: 4px;
+
+}
+.login label{
+  font-size: $labelsize;
+  font-weight: normal;
+}
+.carouselle{
+  margin-bottom: 55px;
+}
+
+#centerlogin{
+margin-top: 150px;
+}
+.wrapperlogin{
+  overflow: hidden;
+
+}
+.background-login{
+  position: fixed;
+  top: 0;
+  left: 0;
+
+  /* Preserve aspet ratio */
+  min-width: 100%;
+  min-height: 100%;
+  z-index:-2;
+
+}

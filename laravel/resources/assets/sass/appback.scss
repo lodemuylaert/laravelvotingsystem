@@ -1,0 +1,34 @@
+
+
+// Bootstrap
+//@import "node_modules/bootstrap-sass/assets/stylesheets/bootstrap";
+@import "node_modules/materialize-css/sass/materialize";
+@import "node_modules/material-icon-font/iconfont/material-icons";
+
+
+//7 to 1 own styles
+
+@import
+'base/fonts',
+'abstracts/variables',
+'abstracts/functions',
+'abstracts/mixins',
+'base/base',
+'base/helpers',
+'base/typography',
+'components/button',
+'components/flashmessages',
+'components/lists',
+'components/pagination',
+'components/radiobutton',
+'layout/footer',
+'layout/header',
+'layout/navigation',
+'pages/home',
+'pages/myvote',
+'pages/login',
+'pages/who',
+'pages/overview',
+'pages/progress';
+
+

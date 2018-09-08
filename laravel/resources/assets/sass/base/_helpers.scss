@@ -1,0 +1,104 @@
+// -----------------------------------------------------------------------------
+// This file contains CSS helper classes.
+// -----------------------------------------------------------------------------
+
+/**
+ * Clear inner floats
+ */
+.clearfix::after {
+  clear: both;
+  content: '';
+  display: table;
+}
+
+/**
+ * Main content containers
+ * 1. Make the container full-width with a maximum width
+ * 2. Center it in the viewport
+ * 3. Leave some space on the edges, especially valuable on small screens
+ */
+.container {
+
+ }
+/**
+
+webkits
+ */
+.imgfilter{
+  -webkit-filter: sepia(100%) opacity(60%);
+  filter: sepia(100%) opacity(60%);
+}
+
+
+/**
+ * Hide text while making it readable for screen readers
+ * 1. Needed in WebKit-based browsers because of an implementation bug;
+ *    See: https://code.google.com/p/chromium/issues/detail?id=457146
+ */
+.hidden{
+  display: none!important;
+}
+.hide-text {
+  overflow: hidden;
+  padding: 0; /* 1 */
+  text-indent: 101%;
+  white-space: nowrap;
+}
+.full{
+  width: 100%;
+}
+.mar0auto{
+  margin: 0 auto;
+}
+.inline{
+  display: inline;
+}
+.fright{
+  float: right;
+}
+.inline{
+  display: inline;
+}
+.textareamargin{
+  margin-top: 50px;
+}
+.relative{
+  position: relative!important;
+}
+.fontinherit{
+  font-size:inherit !important;
+}
+/**
+ * Hide element while making it readable for screen readers
+ * Shamelessly borrowed from HTML5Boilerplate:
+ * https://github.com/h5bp/html5-boilerplate/blob/master/src/css/main.css#L119-L133
+ */
+.visually-hidden { 
+  border: 0;
+  clip: rect(0 0 0 0);
+  height: 1px;
+  margin: -1px;
+  overflow: hidden;
+  padding: 0;
+  position: absolute;
+  width: 1px;
+}
+
+.nomargin{
+  margin:0px;
+}
+.border{
+  border-bottom: 1px solid rgba(0,0,0, 0.4);
+}
+.listitemactions{
+  display: block;
+  position: relative;
+  top: -33px;
+  left: -12px;
+}
+.initialfloat{
+  float: initial!important;
+}
+.noabs{
+  position: inherit!important;
+}

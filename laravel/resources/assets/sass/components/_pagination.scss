@@ -1,0 +1,19 @@
+.pagination{
+  text-align: center;
+  li.active,
+  li:hover,
+  li:active{
+    background-color: $blue;
+    color: white;
+    width: 30px;
+    text-decoration: none;
+  };
+  li a:hover{
+    text-decoration: none;
+    color: white;
+  }
+  li{
+    margin: 0px 10px;
+  }
+
+}

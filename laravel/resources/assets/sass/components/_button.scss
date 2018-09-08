@@ -1,0 +1,94 @@
+// -----------------------------------------------------------------------------
+// This file contains all styles related to the button component.
+// -----------------------------------------------------------------------------
+.welcome .stemnu{
+  margin-top:2em;
+  padding: 0.5em 2em;
+  font-size: 2.0em;
+}
+.btn-primary{
+  font-family: $robotocondensed!important;
+  font-size: 20px;
+  padding: 10px 12px;
+  background-color: $cyan;
+  border-color: $cyan;
+}
+.btn-primary:hover,
+.btn-primary:focus,
+.btn-primary:active
+{
+  background-color: $darkgray;
+  border-color: $darkgray;
+  color: $cyan;
+  transition: box-shadow ease-in-out 0.5s;
+}
+.form-control:focus{
+  border-color: $cyan;
+}
+.form-control{
+  height: 40px;
+}
+#submitlogin{
+  margin-top:30px;
+}
+
+.votebutton{
+  width:100%;
+  margin-top: 5%;
+  margin-bottom: 5%;
+}
+.backoffbuttons{
+  .btn-large{
+    border-radius: 0px;
+  }
+  .headerbutton{
+    width: 400px;
+    font-family: $robotocondensed;
+    box-shadow: 0px;
+    box-shadow: 0px 0px 0px!important;
+  }
+.headerbutton:hover,
+.headerbutton:focus{
+    text-decoration: none;
+    color: $blue;
+    box-shadow: 0px 0px 0px!important;
+
+  }
+  line-height: 0px;
+  position: absolute;
+  bottom:0px;
+  left: 20%;
+}
+.newcandidate{
+  margin-top: 20px;
+  width: 100%;
+}
+.harddelete{
+  color: $red;
+}
+.harddelete:hover{
+  color: $darkred;
+}
+.backbutt:hover{
+  text-decoration: none;
+
+}
+.checkbovebtn{
+  margin-bottom: 5%;
+  width: 100%;
+}
+.backbutt{
+  top: 50px;
+  i{
+    -webkit-transform: rotate(180deg);
+    -moz-transform: rotate(180deg);
+    -ms-transform: rotate(180deg);
+    -o-transform: rotate(180deg);
+    transform: rotate(180deg);
+    background-color: $cyan;
+  }
+  i:hover{
+    background-color: $darkgray;
+    border: $darkred;
+  }
+}

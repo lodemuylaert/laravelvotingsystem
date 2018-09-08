@@ -1,0 +1,99 @@
+.logonavigation, #profilepicnavigation{
+  width: 40px;
+  height: 40px;
+  position: absolute;
+  border-radius: 50%;
+  top:5px; left: 20px;
+}
+#loganavigationlist{
+  position: $relative;
+}
+.navbar {
+  background-color: $darkgray;
+  min-height:50px;
+}
+.navbar-default .navbar-nav > li > a
+{
+  color: $white;
+}
+.navbar-default .navbar-nav > li > a:hover,
+.navbar-default .navbar-nav > li > a:focus{
+  color: $cyan;
+  transition: color ease-in-out 0.15s;
+}
+.navbar-default .navbar-nav > .active > a,
+.navbar-default .navbar-nav > .active > a:hover,
+.navbar-default .navbar-nav > .active > a:focus{
+  background-color: $white;
+}
+.navbar{
+  border: 0px;
+}
+.navbar-toggle{
+  border-radius: 0px;
+  margin-top: 12px;
+}
+.navbar-default .navbar-toggle .icon-bar{
+  background-color: $cyan
+}
+.navbar-default .navbar-toggle:hover,
+.navbar-default .navbar-toggle:focus{
+  background-color: $white;
+}
+.navbar-collapse{
+  border-top: 0px;
+}
+.side-nav.fixed{
+  background-color: $blue;
+}
+.backofffirstli{
+  height:30%;
+}
+.backofffirstli > div{
+  height:100%;
+}
+.side-nav li > a{
+  color: white;
+  font-family: $robotobold;
+}
+.side-nav li > a:hover,
+.side-nav li > a:focus,
+.side-nav li > a:active,
+.side-nav li.active{
+  background-color: $lightblue;
+  font-family: $robotobold;
+  text-decoration: none;
+}
+
+.side-nav li > a > i, .side-nav li > a > [class^="mdi-"], .side-nav li > a li > a > [class*="mdi-"], .side-nav li > a > i.material-icons{
+  color: white;
+}
+.navigationlabel{
+  font-family: $robotocondensed;
+  color: $lightgray;
+  padding: 0px 32px;
+  text-transform: uppercase;
+
+}
+.backofficemaincenter{
+padding-left: 300px;
+}
+
+.containernav{
+  position: absolute;
+}
+.backoffnav{
+  margin-bottom: 70px;
+  height: 10em;
+  background-color: $blue;
+  position: relative;
+}
+#nav-mobile{
+  background-color: $blue;
+}
+.profilename{
+  position: fixed;
+  left: 50%;
+  top: 0%;
+  transform: translate(-50%, -50%)
+}

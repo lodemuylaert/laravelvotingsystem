@@ -1,0 +1,180 @@
+<!doctype html>
+<html>
+	<head>
+
+    <link rel="apple-touch-icon" sizes="57x57" href="icons/apple-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="icons/apple-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="icons/apple-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="icons/apple-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="icons/apple-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="icons/apple-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="icons/apple-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="icons/apple-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="icons/apple-icon-180x180.png">
+    <link rel="icon" type="image/png" sizes="192x192"  href="icons/android-icon-192x192.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="icons/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="icons/favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="icons/favicon-16x16.png">
+    <link rel="manifest" href="icons/manifest.json">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
+    <meta name="theme-color" content="#ffffff">
+
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+		<title>Vote Voice</title>
+
+		<link rel="stylesheet" href="css/reveal.css">
+		<link rel="stylesheet" href="css/theme/black.css">
+		<link rel="stylesheet" href="css/theme/vote.css">
+
+
+		<!-- Theme used for syntax highlighting of code -->
+		<link rel="stylesheet" href="lib/css/zenburn.css">
+
+		<!-- Printing and PDF exports -->
+		<script>
+			var link = document.createElement( 'link' );
+			link.rel = 'stylesheet';
+			link.type = 'text/css';
+			link.href = window.location.search.match( /print-pdf/gi ) ? 'css/print/pdf.css' : 'css/print/paper.css';
+			document.getElementsByTagName( 'head' )[0].appendChild( link );
+		</script>
+	</head>
+	<body>
+		<div class="reveal">
+			<div class="slides">
+				<section data-background="#1ABC9C" data-transition="slide"><img src="img/logo_transparant.png" width="30%" height="30%"></section>
+				<section>
+					<section>
+						<h2>Korte inleiding</h2>
+					</section>
+					<section>
+						<ul>
+							<li><p class="fragment">Wat is VoteVoice</p></li>
+							<li><p class="fragment">Wat is het doelpubliek</p></li>
+							<li><p class="fragment">Wat wil de klant(in dit geval gemeente Aalst)</p></li>
+						</ul>					
+					</section>
+				</section>
+				<section>
+					<section>
+						<h2>Login mogelijkheden</h2>
+					</section>
+					<section>
+						<p>Front-office</p>
+						<img class="fragment" src="img/frontoff.png">
+					</section>
+					<section>
+						<p>Back-office</p>
+						<img class="fragment" src="img/backoff.png">
+					</section>
+					<section>
+						<p class="fragment">guard & providers</p>
+						<img class="fragment" src="img/guard.png">						
+						<img class="fragment" src="img/providers.png">
+						<p class="fragment">middleware</p>
+						<img class="fragment" src="img/middleware.png">
+					</section>
+				</section>
+				<section>
+					<section>
+						<h2>Plugins</h2>
+					</section>
+					<section>
+						<ul>
+							<li class="fragment"><p>Intervention image</p></li>
+							<li class="fragment"><p>Columnsoratble</p></li>
+							<li class="fragment"><p>Debugbar</p></li>
+						</ul>
+						<img class="fragment" src="img/plugins.png">
+					</section>
+				</section>
+				<section>
+					<section>
+						<h2>APIs</h2>
+					</section>
+					<section>
+						<ul>
+						<li class="fragment"><p >Ophalen partijen</p></li>
+						<li class="fragment"><p>Ophalen candidaten</p></li>
+						<li class="fragment"><p>Wegschrijven stem</p></li>
+						</ul>
+						<img class="fragment" src="img/api.png">
+						<img class="fragment" src="img/api2.png">
+					</section>
+				</section>
+				<section>
+					<section>
+						<h2>Rollen</h2>
+					</section>
+					<section>
+						<ul>
+						<li class="fragment"><p >guest(niet ingelogd)</p></li>
+						<li class="fragment"><p>Voter(ingelogd)</p></li>
+						<li class="fragment"><p>kandidaat</p></li>
+						<li class="fragment"><p>administrator</p></li>
+						<li class="fragment"><p>superadministrator</p></li>
+						</ul>
+					</section>
+				</section>
+				<section>
+					<section>
+						<h2>Codesnippets Front-office</h2>
+					</section>
+					<section>
+						<img class="fragment" src="img/codesnipfront.png">
+					</section>
+				</section>
+				<section>
+					<section>
+						<h2>Codesnippets Backoffice</h2>
+					</section>
+					<section>
+						<img class="fragment" src="img/codesnipback.png">
+					</section>
+				</section>
+				<section>
+					<section>
+						<h2>Nuttige info</h2>
+					</section>
+					<section>
+						<ul>
+						<li class="fragment"><p >Alle wachtwoorden van bestaande admins of voters = "secret"</p></li>
+						<li class="fragment"><p>Nieuwe voters krijgen een random versleuteld wachtwoord</p></li>
+						<li class="fragment"><p>User 'lode' is zowel gebruiker als admin</p></li>
+						</ul>
+					</section>
+				</section>
+				<section>
+					<section>
+						<h2>Korte Demo</h2>
+					</section>
+					<section data-background-video="video/demo.mp4">
+						
+					</section>
+				</section>
+				
+			</div>
+		</div>
+
+		<script src="lib/js/head.min.js"></script>
+		<script src="js/reveal.js"></script>
+
+		<script>
+			// More info https://github.com/hakimel/reveal.js#configuration
+			Reveal.initialize({
+				history: true,
+
+				// More info https://github.com/hakimel/reveal.js#dependencies
+				dependencies: [
+					{ src: 'plugin/markdown/marked.js' },
+					{ src: 'plugin/markdown/markdown.js' },
+					{ src: 'plugin/notes/notes.js', async: true },
+					{ src: 'plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } }
+				]
+			});
+		</script>
+	</body>
+</html>

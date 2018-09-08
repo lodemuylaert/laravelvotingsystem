@@ -1,0 +1,26 @@
+.jumbotron{
+  background-color: rgba(0,0,0,0.0);
+}
+span.badge{
+  color: white;
+  float: inherit;
+}
+#partielist{
+  list-style: none;
+};
+td{
+  padding: 5px 5px;
+}
+.softdeleted{
+opacity: 0.3;
+}
+.candidatedetail:hover{
+  opacity: 0.7;
+}
+.anchorwithouthref:hover{
+  cursor:pointer;
+}
+.softdeletedaddministrator{
+  background-color: rgba(255,0,0, 0.2) !important;
+  opacity: 0.5;
+}

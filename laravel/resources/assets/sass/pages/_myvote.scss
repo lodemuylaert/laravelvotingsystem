@@ -1,0 +1,22 @@
+#candidatelist{
+  list-style: none;
+  padding-left: 15px;
+}
+.headtext{
+  display: inline;
+}
+.partij{
+  background-color: rgba(0,0,0, 0.03);
+  padding: 2em;
+  //border-radius: 10px;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  height: 1615px;
+  box-shadow: 0px 0px 12px $darkgray;
+}
+.partij:hover{
+  transition: box-shadow ease-in-out 0.5s;
+}
+.blurvote{
+  opacity: 0.4;
+}

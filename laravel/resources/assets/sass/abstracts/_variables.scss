@@ -1,0 +1,72 @@
+// -----------------------------------------------------------------------------
+// This file contains all application-wide Sass variables.
+// -----------------------------------------------------------------------------
+
+
+
+// Body
+$body-bg: #f5f8fa;
+
+
+// Borders
+$laravel-border-color: darken($body-bg, 10%);
+$list-group-border: $laravel-border-color;
+$navbar-default-border: $laravel-border-color;
+$panel-default-border: $laravel-border-color;
+$panel-inner-border: $laravel-border-color;
+
+// Brands
+$brand-primary: #3097D1;
+$brand-info: #8eb4cb;
+$brand-success: #2ab27b;
+$brand-warning: #cbb956;
+$brand-danger: #bf5329;
+$brand-color: #1AB99C;
+
+$cyan: #1DB99C;
+$darkgray: #484848;
+$white: white;
+$blue: #081326;
+$lightblue: #263543;
+$lightgray: #818284;
+$red: #ee6e73;
+$darkred: #b71c1c;
+
+//positions
+$absolute: absolute;
+$relative: relative;
+
+// Typography
+$robotocondensed: "Roboto Condensed", sans-serif;
+$robotobold: 'Roboto', sans-serif;
+$opensans:'Open Sans', sans-serif;
+
+$icon-font-path: "~bootstrap-sass/assets/fonts/bootstrap/";
+$font-family-sans-serif: "Raleway", sans-serif;
+$font-size-base: 14px;
+$line-height-base: 1.6;
+$text-color: #636b6f;
+$labelsize: 1.5em;
+$regulartextsize: 1.1em;
+$voteregulartextsize: 1.3em;
+
+// Navbar
+$navbar-default-bg: #fff;
+
+// Buttons
+$btn-default-color: $text-color;
+
+// Inputs
+$input-border: lighten($text-color, 40%);
+$input-border-focus: lighten($brand-primary, 25%);
+$input-color-placeholder: lighten($text-color, 30%);
+
+// Panels
+$panel-default-heading-bg: #fff;
+
+//typography
+$text-color: black;
+$text-font-stack: 'Raleway', sans-serif;
+$jumbotron-font: 63px;
+$headfontsize : 6em;
+$subtitles : 4em;

@@ -1,0 +1,32 @@
+
+
+// Bootstrap
+@import "node_modules/bootstrap-sass/assets/stylesheets/bootstrap";
+
+
+//7 to 1 own styles
+
+@import
+'base/fonts',
+'abstracts/variables',
+'abstracts/functions',
+'abstracts/mixins',
+'base/base',
+'base/helpers',
+'base/typography',
+'components/button',
+'components/lists',
+'components/radiobutton',
+'layout/footer',
+'layout/header',
+'layout/navigation',
+'pages/home',
+'pages/myvote',
+'pages/login',
+'pages/who',
+'pages/progress';
+
+
+#partielist{
+  list-style: none;
+};

@@ -1,0 +1,75 @@
+/**
+ * Basic typography style for copy text
+ */
+body {
+  color: $text-color;
+  font: normal 125% / 1.4 $opensans;
+}
+.labelform,
+.input-field .labelform{
+  color: $cyan;
+  font-size: 1.5rem;
+  cursor: text;
+  transition: .2s ease-out;
+  text-align: initial;
+}
+
+.welcome .verkiezingen{
+  font-size: $headfontsize;
+}
+.aanmelden, .wiemag{
+  font-size: $subtitles;
+  margin: 1em 0em;
+}
+
+.wiemag{
+  color: $cyan;
+}
+.pagetitle{
+  font-size: 6em;
+  font-family: $robotocondensed;
+  font-weight: bold;
+  color: $cyan!important;
+}
+.aanmelden{
+  color: $darkgray!important;
+}
+
+.pagesubtitle{
+  color: $darkgray;
+  font-weight:bold;
+  font-size: 21px;
+}
+.votesubtitles{
+  color: $cyan;
+  font-weight:bold;
+  font-size: 25px;
+
+}
+.voteregualertext{
+  font-size:1.0em;
+}
+
+.formlabel{
+  font-weight: bold!important;
+  font-size: 2em!important;
+  color: $darkgray;
+}
+.regulartext{
+  font-size: $voteregulartextsize;
+
+}
+.page-header{
+  border-bottom: 0px;
+}
+.confirmtext{
+  margin-left: 50px;
+  color: $darkgray;
+  font-size: 1.8rem;
+
+}
+.confirmlabel{
+  font-family: $robotocondensed;
+  color: $cyan;
+  font-size: 1.8rem;
+}
